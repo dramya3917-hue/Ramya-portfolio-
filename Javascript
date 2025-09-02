@@ -1,0 +1,9 @@
+// JavaScript to change background color dynamically
+
+function changeBackground() {
+
+  const colors = ["#f0f4f8", "#ffe4e1", "#e6ffe6", "#fff5e6", "#e6e6ff"];
+
+  document.body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+}
